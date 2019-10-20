@@ -1,2 +1,3 @@
 # Reactjs_exjapp
- React example app 
+ React example app
+ By: Angel Gonzalez 

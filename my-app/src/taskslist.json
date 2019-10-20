@@ -1,0 +1,23 @@
+{
+    "tasks":
+    [
+        {
+            "title": "Task 1",
+            "responsible": "Mark",
+            "description": "lorem ipsum",
+            "priority": "low"
+        },
+        {
+            "title": "Task 2",
+            "responsible": "Ray",
+            "description": "lorem ipsum",
+            "priority": "medium"
+        },
+        {
+            "title": "Task 3",
+            "responsible": "Alexa",
+            "description": "lorem ipsum",
+            "priority": "high"
+        }
+    ]
+}
