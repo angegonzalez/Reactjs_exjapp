@@ -1,9 +1,9 @@
 import React , {Component}from 'react';
 import './App.css';
 import NavBar from './components/NavBar';
-
+import AddingTasks from './AddingTasks';
 import { tasks } from './taskslist.json';
-
+import { BrowserRouter as Router, Switch,Route} from 'react-router-dom';
 
 class App extends Component {
   constructor()
@@ -41,24 +41,27 @@ class App extends Component {
     }
     )
     return (
+      <Router>
       <div className="App">
-
+  
         <NavBar section="Tasks" brand="By AngCorp" ntasks={this.state.tasks.length}></NavBar>
         <br></br>
+        <Switch>
+        
+        <Route path="/addingtasks" component={AddingTasks}/>
         <div className="container-fluid">
           <div className="row">
             {tasks}
-            
           </div>
-          
         </div>
+        </Switch>
       </div>
+      </Router>
     );
     }
 
   }
 
 export default App;
-
 
 
