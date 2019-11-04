@@ -6,10 +6,8 @@ class NavBar extends Component {
         return (
 
             <nav className="navbar navbar-expand-lg navbar-dark">
-                <a className="navbar-brand" href="#">{this.props.section}
-                    <span class="badge badge-dark ml-2">{this.props.ntasks}</span>
-                    <span class="sr-only">tasks number</span>
-                    <a className="brand-team ml-2"> {this.props.brand}</a>
+                <a className="navbar-brand font-weight-bold" href="/home">{this.props.section}
+                    <a className="brand-team ml-2 font-weight-normal"> {this.props.brand}</a>
                 </a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -18,7 +16,7 @@ class NavBar extends Component {
                     <ul className="navbar-nav">
                         <Link to='/'>
                         <li className="nav-item active">
-                            <a className="nav-link" >Home <span className="sr-only">(current)</span></a>
+                            <a className="nav-link" >Login <span className="sr-only">(current)</span></a>
                         </li>
                         </Link>
                         <Link to='/addingtasks'>
