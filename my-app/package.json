@@ -3,10 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material/dialog": "^4.0.0",
+    "@material/list": "^4.0.0",
+    "firebase": "^7.2.3",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
-    "react-scripts": "3.2.0",
-    "react-router-dom": "latest"
+    "react-router-dom": "latest",
+    "react-scripts": "3.2.0"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,29 +1,19 @@
 {
-    "tasks":
+    "notices":
     [
         {
-            "title": "Task 1",
-            "responsible": "Mark",
-            "description": "lorem ipsum",
-            "priority": "low"
+            "title": "Nueva interfaz de usuario",
+            "description": "Una nueva intefaz diseñada por AngCorp llega a Enseñame",
+            "date": "4/11/2019",
+            "minutes": 1,
+            "image": "1"
         },
         {
-            "title": "Task 2",
-            "responsible": "Ray",
-            "description": "lorem ipsum",
-            "priority": "medium"
-        },
-        {
-            "title": "Task 3",
-            "responsible": "Alexa",
-            "description": "lorem ipsum",
-            "priority": "high"
-        },
-        {
-            "title": "Task 4",
-            "responsible": "Alexandra",
-            "description": "lorem ipsum",
-            "priority": "high"
+            "title": "Enseñame cuenta con una nueva funcionalidad",
+            "description": "El login ha sido resideñado por completo incorporando Bootstap",
+            "date": "4/11/2019",
+            "minutes": 2,
+            "image": "2"
         }
     ]
 }
