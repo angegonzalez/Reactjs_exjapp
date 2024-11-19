@@ -5,7 +5,7 @@
   "dependencies": {
     "@material/dialog": "^4.0.0",
     "@material/list": "^4.0.0",
-    "firebase": "^7.2.3",
+    "firebase": "^10.9.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-router-dom": "latest",
